@@ -31,7 +31,13 @@
         background: -o-linear-gradient(#fff, #999);
     }
 
-    .close {
+.modal-close {color: black;
+font-size: 40px;
+position: absolute;
+right: 10px;
+       
+         text-decoration: none;}
+ /*   .close {
         background: #606061;
         color: #FFFFFF;
         line-height: 25px;
@@ -50,4 +56,4 @@
         box-shadow: 1px 1px 3px #000;
     }
 
-    .close:hover { background: #00d9ff; }
+    .close:hover { background: #00d9ff; }*/

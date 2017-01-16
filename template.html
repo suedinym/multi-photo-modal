@@ -3,7 +3,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Title of the document</title>
+<title>My multiple img modal</title>
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <link rel="stylesheet" type="text/css" href="css/skeleton.css">
 </head>
@@ -11,14 +11,18 @@
 <header></header>
 
 <nav></nav>
-<!-- modal one -->
 
+<!-- modal one -->
+<!-- Trigger the Modal -->
 <a href="#openModal1"><img src="images/bowl8.svg" alt="8 inch bowl" width="300" height="200"></a>
 
-<!-- id is anchor  -->
+<!-- The Modal -->
+<!-- note: id is anchor  -->
 <div id="openModal1" class="modalDialog">
 <div>
-    <a href="#close" class="close">X</a>
+  <!-- The Close Button -->
+<a href="#close" class="modal-close">&times;</a> 
+   <!--  <a href="#close" class="close">X</a> -->
      <h2>8" Bowl</h2>
     <img src="images/bowl8.svg" alt="8 inch bowl" width="300" height="200">
    
@@ -31,15 +35,21 @@
 </form>
 </div>
 </div>
+<!-- end modal 1-->
 
 <!--modal two -->
+<!-- Trigger the Modal -->
 <a href="#openModal2"><img src="images/mug8.svg" alt="8 oz mug"width="300" height="200"></a>
 
+<!-- The Modal -->
   <div id="openModal2" class="modalDialog">
 <div>
-    <a href="#close" class="close">X</a>
+   <!-- The Close Button -->
+<a href="#close" class="modal-close">&times;</a> 
+   <!--  <a href="#close" class="close">X</a> -->
+     <h2>8 oz mug - (Pattern)</h2>
     <img src="images/mug8.svg" alt="8 oz mug"width="300" height="200">
-    <h2>8 oz mug - (Pattern)</h2>
+  
     <p><strong>Sale Price: $22.99</strong></p>
    <p>Price: <del> $99.95</del></p>
    <form action="">
@@ -48,6 +58,10 @@
   <br><br>
   <input type="submit" value="Add to cart">
 </form> 
+</div>
+</div>
+
+<!-- end modal 1-->
 <footer></footer>
 <script src="js/myScript.js"></script>
 <script src="js/jquery-1.9.1.min.js"></script>
