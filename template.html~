@@ -22,16 +22,17 @@
 <div>
   <!-- The Close Button -->
 <a href="#close" class="modal-close">&times;</a> 
-   <!--  <a href="#close" class="close">X</a> -->
+ 
      <h2>8" Bowl</h2>
-    <img src="images/bowl8.svg" alt="8 inch bowl" width="300" height="200">
-   
+    <img src="images/bowl8.svg" alt="8 inch bowl">
+    <p class="non-stock-warning">Item ships in 3 business days </p>
     <p>Price: $99.95</p>
-     <form action="">
-  Quantity:  <input type="text" name="quantity" value="">
+    <form  action="">
+    <label for="quantity">Quantity:</label>
+  <input class="quan" type="text" name="quantity" value="">
 
   <br><br>
-  <input type="submit" value="Add to cart">
+  <input class="add2cart" type="submit" value="Add to cart">
 </form>
 </div>
 </div>
@@ -39,28 +40,31 @@
 
 <!--modal two -->
 <!-- Trigger the Modal -->
-<a href="#openModal2"><img src="images/mug8.svg" alt="8 oz mug"width="300" height="200"></a>
+<a href="#openModal2"><img src="images/mug8.svg" alt="8 oz mug" width="300" height="200"></a>
 
 <!-- The Modal -->
   <div id="openModal2" class="modalDialog">
 <div>
    <!-- The Close Button -->
 <a href="#close" class="modal-close">&times;</a> 
-   <!--  <a href="#close" class="close">X</a> -->
-    <img src="images/mug8.svg" alt="8 oz mug"width="300" height="200">
-    <h2>8 oz mug - (Pattern)</h2>
-    <p><strong>Sale Price: $22.99</strong></p>
+  
+     <h2>8 oz mug - (Pattern)</h2>
+    <img src="images/mug8.svg" alt="8 oz mug">
+ 
+   <p class="non-stock-warning">Item ships in 4-6 weeks </p>
+    <p><strong>Sale Price: </strong><span class="sale">$22.99</span></p>
    <p>Price: <del> $99.95</del></p>
-   <form action="">
-  Quantity:  <input type="text" name="quantity" value="">
+     <form  action="">
+    <label for="quantity">Quantity:</label>
+  <input class="quan" type="text" name="quantity" value="">
 
   <br><br>
-  <input type="submit" value="Add to cart">
+  <input class="add2cart" type="submit" value="Add to cart">
 </form> 
 </div>
 </div>
 
-<!-- end modal 1-->
+<!-- end modal 2-->
 <footer></footer>
 <script src="js/myScript.js"></script>
 <script src="js/jquery-1.9.1.min.js"></script>
