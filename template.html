@@ -1,0 +1,56 @@
+<!-- http://jsfiddle.net/3Vykc/ -->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Title of the document</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/skeleton.css">
+</head>
+<body>
+<header></header>
+
+<nav></nav>
+<!-- modal one -->
+
+<a href="#openModal1"><img src="images/bowl8.svg" alt="8 inch bowl" width="300" height="200"></a>
+
+<!-- id is anchor  -->
+<div id="openModal1" class="modalDialog">
+<div>
+    <a href="#close" class="close">X</a>
+     <h2>8" Bowl</h2>
+    <img src="images/bowl8.svg" alt="8 inch bowl" width="300" height="200">
+   
+    <p>Price: $99.95</p>
+     <form action="">
+  Quantity:  <input type="text" name="quantity" value="">
+
+  <br><br>
+  <input type="submit" value="Add to cart">
+</form>
+</div>
+</div>
+
+<!--modal two -->
+<a href="#openModal2"><img src="images/mug8.svg" alt="8 oz mug"width="300" height="200"></a>
+
+  <div id="openModal2" class="modalDialog">
+<div>
+    <a href="#close" class="close">X</a>
+    <img src="images/mug8.svg" alt="8 oz mug"width="300" height="200">
+    <h2>8 oz mug - (Pattern)</h2>
+    <p><strong>Sale Price: $22.99</strong></p>
+   <p>Price: <del> $99.95</del></p>
+   <form action="">
+  Quantity:  <input type="text" name="quantity" value="">
+
+  <br><br>
+  <input type="submit" value="Add to cart">
+</form> 
+<footer></footer>
+<script src="js/myScript.js"></script>
+<script src="js/jquery-1.9.1.min.js"></script>
+
+</body>
+</html>
